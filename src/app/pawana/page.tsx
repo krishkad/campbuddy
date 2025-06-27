@@ -201,7 +201,7 @@ Please confirm availability and pricing.`;
                 Book Your Pawana Experience
               </h2>
               <p className="text-xl text-gray-600">
-                Ready to escape to nature? Fill out the form below and we'll
+                Ready to escape to nature? Fill out the form below and we&apos;ll
                 send the details to WhatsApp.
               </p>
             </div>

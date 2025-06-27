@@ -182,7 +182,7 @@ Please confirm availability and pricing.`;
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold text-forest-800 mb-4">Book Your Panshet Adventure</h2>
               <p className="text-xl text-gray-600">
-                Ready for the ultimate adventure? Fill out the form below and we'll send the details to WhatsApp.
+                Ready for the ultimate adventure? Fill out the form below and we&apos;ll send the details to WhatsApp.
               </p>
             </div>
 
