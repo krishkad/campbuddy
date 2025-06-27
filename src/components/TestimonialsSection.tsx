@@ -9,7 +9,7 @@ const TestimonialsSection = () => {
       name: "Priya Sharma",
       message: "Absolutely magical experience at Pawana! The sunrise views and peaceful atmosphere made our weekend perfect. The staff was incredibly welcoming and the food was delicious.",
       rating: 5,
-      photo: "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80"
+      photo: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=388&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       name: "Rajesh Kumar",
@@ -38,7 +38,7 @@ const TestimonialsSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-forest-50 to-gold-50">
+    <section className="py-20 bg-gradient-to-br from-[var(--forest-50)] to-[var(--gold-50)]">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-forest-800 mb-4">What Our Guests Say</h2>

@@ -29,7 +29,7 @@ const BranchesSection = () => {
   ];
 
   return (
-    <section id="branches" className="py-20 bg-gradient-to-br from-gray-50 to-forest-50">
+    <section id="branches" className="py-20 bg-gradient-to-br from-gray-50 to-[var(--forest-50)]">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="text-4xl md:text-5xl font-bold text-forest-800 mb-4">

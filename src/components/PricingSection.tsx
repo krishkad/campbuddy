@@ -29,7 +29,7 @@ const PricingSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-gold-50 to-forest-50">
+    <section className="py-20 bg-gradient-to-br from-[var(--gold-50)] to-[var(--forest-50)]">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-forest-800 mb-4">Choose Your Plan</h2>

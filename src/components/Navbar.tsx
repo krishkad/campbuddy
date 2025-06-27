@@ -50,7 +50,7 @@ const Navbar = () => {
               <Link
                 key={link.href}
                 href={link.href.startsWith("#") ? "/" : link.href}
-                className={`text-sm font-medium transition-colors duration-200 hover:text-gold-500 ${
+                className={`text-sm font-medium transition-colors duration-200 hover:text-[var(--gold-500)] ${
                   isScrolled ? "text-gray-700" : "text-white"
                 } ${pathname === link.href ? "text-gold-500" : ""}`}
                 onClick={() => {
@@ -64,7 +64,7 @@ const Navbar = () => {
               </Link>
             ))}
             <Button
-              className="bg-gold-500 hover:bg-gold-600 text-white font-medium px-6"
+              className="bg-gold-500 hover:bg-[var(--gold-600)] rounded-full text-white font-medium px-6"
               onClick={() =>
                 window.open("https://wa.me/919876543210", "_blank")
               }
