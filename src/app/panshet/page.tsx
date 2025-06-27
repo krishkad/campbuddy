@@ -112,7 +112,7 @@ Please confirm availability and pricing.`;
         <div className="absolute inset-0 flex items-center justify-center text-white text-center px-4">
           <div className="max-w-4xl animate-fade-in-up">
             <div className="flex items-center justify-center mb-4">
-              <Badge className="bg-gold-500 text-white px-4 py-2 text-sm">
+              <Badge className="bg-gold-500 text-white rounded-full px-4 py-2 text-sm">
                 <Star className="w-4 h-4 mr-1 fill-current" />
                 4.9 Rating
               </Badge>
@@ -296,7 +296,7 @@ Please confirm availability and pricing.`;
                     type="submit" 
                     className="w-full bg-green-600 hover:bg-green-700 text-white py-4 text-lg"
                   >
-                    Send Booking Request via WhatsApp
+                    Send Booking Request 
                   </Button>
                 </form>
               </CardContent>
