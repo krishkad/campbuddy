@@ -36,7 +36,7 @@ const BranchesSection = () => {
             Our Resort Destinations
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Choose your perfect getaway between two stunning locations, each offering unique experiences in nature's embrace.
+            Choose your perfect getaway between two stunning locations, each offering unique experiences in nature&apos;s embrace.
           </p>
         </div>
 

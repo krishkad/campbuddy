@@ -1,19 +1,19 @@
 "use client"
-import { useState } from 'react';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-import PricingSection from '@/components/PricingSection';
 import AmenitiesSection from '@/components/AmenitiesSection';
-import EnhancedGallery from '@/components/EnhancedGallery';
 import DayTimelineSection from '@/components/DayTimelineSection';
+import EnhancedGallery from '@/components/EnhancedGallery';
+import Footer from '@/components/Footer';
+import Navbar from '@/components/Navbar';
+import PricingSection from '@/components/PricingSection';
+import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
-import { Badge } from '@/components/ui/badge';
-import { MapPin, Star, Clock, Users, Calendar, ArrowLeft, ArrowRight } from 'lucide-react';
+import { Textarea } from '@/components/ui/textarea';
+import { ArrowLeft, ArrowRight, Clock, MapPin, Star, Users } from 'lucide-react';
 import Link from 'next/link';
+import { useState } from 'react';
 
 const Panshet = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
